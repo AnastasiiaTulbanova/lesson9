@@ -1,0 +1,47 @@
+.black {
+	height: 500px;
+	width: 500px;
+	background-color: black;
+	position: relative;
+
+}
+.green {
+	height: 100px;
+	width: 100px;
+	background-color: green;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 100px;
+	transition: all 0.5s;
+
+}
+.red {
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 150px;
+	transition: all 0.5s;
+
+}
+.blue {
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 200px;
+}
+.black:hover .red{
+	margin-top: 200px;
+	margin-left: 200px;
+	transition: all 0.5s;
+
+}
+.black:hover .green{
+	margin-top: 200px;
+	margin-left: 200px;
+	transition: all 0.5s;
+
+}
