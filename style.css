@@ -1,6 +1,6 @@
 .black {
-	height: 500px;
-	width: 500px;
+	height: 700px;
+	width: 700px;
 	background-color: black;
 	position: relative;
 
@@ -33,6 +33,37 @@
 	margin-top: 200px;
 	margin-left: 200px;
 }
+.orange {
+	height: 100px;
+	width: 100px;
+	background-color: orange;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 450px;
+	transition: all 0.5s;
+
+}
+.pink {
+	height: 100px;
+	width: 100px;
+	background-color: pink;
+	position: absolute;
+	margin-top: 400px;
+	margin-left: 400px;
+	transition: all 0.5s;
+
+}
+.white {
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 350px;
+	transition: all 0.5s;
+
+}
+
 .black:hover .red{
 	margin-top: 200px;
 	margin-left: 200px;
@@ -43,5 +74,14 @@
 	margin-top: 200px;
 	margin-left: 200px;
 	transition: all 0.5s;
-
+} 
+.black:hover .orange {
+	margin-top: 350px;
+	margin-left: 350px;
+	transition: all 0.5s;
+}
+.black:hover .pink {
+	margin-top: 350px;
+	margin-left: 350px;
+	transition: all 0.5s;
 }
